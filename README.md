@@ -2,6 +2,9 @@ Here are the requirements for this browser automation and API integration projec
 
 ### **Project Requirements:**
 
+### ** To run this projetct:**
+- go to arquive side3.py and run
+    
 #### **1. Python Libraries:**
 - **Selenium**: For browser automation.
     - Install via pip:
