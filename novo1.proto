@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message RequestData {
+    string valor_input = 1;  // Campo para enviar o valor de entrada
+}
+
+message ResponseMessage {
+    int32 status_code = 1;
+    string message = 2;
+}

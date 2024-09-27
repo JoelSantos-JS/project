@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message RequestData {
+    string valor_input = 1;  // Campo para enviar o valor de entrada, como o valor capturado no Tkinter
+}
+
+message ResponseData {
+    string campo_exemplo = 1;  // Exemplo de campo que será recebido como resposta
+    int32 status_code = 2;     // Um campo de código de status que pode ser recebido na resposta
+    string mensagem = 3;       // Mensagem detalhada da resposta
+}
